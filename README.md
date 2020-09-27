@@ -37,6 +37,9 @@ This pipeline is ran on the test images and below images are the outputs.
 
 ![alt-text-1](./test_images_output/Red/solidWhiteCurve_test_output.jpg "solidWhiteCurve") ![alt-text-2](./test_images_output/Red/solidWhiteRight_test_output.jpg "solidWhiteRight")
 
+<img src="./test_images_output/Red/solidWhiteCurve_test_output.jpg" width="425"/> <img src="./test_images_output/Red/solidWhiteRight_test_output.jpg" width="425"/> 
+
+
 
 
 
