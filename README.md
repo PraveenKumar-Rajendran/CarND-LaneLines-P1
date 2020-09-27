@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### Lane detection pipeline.
 
 My pipeline consisted of 5 steps. Steps will be explained below. 
 
@@ -36,8 +36,6 @@ My pipeline consisted of 5 steps. Steps will be explained below.
 This pipeline is ran on the test images and below images are the outputs. 
 
 
-<img src="./test_images_output/Red/solidWhiteCurve_test_output.jpg" width="250"/> <img src="./test_images_output/Red/solidWhiteRight_test_output.jpg" width="250"/> 
-
 <table>
   <tr>
     <td>solidWhiteCurve</td>
@@ -51,10 +49,18 @@ This pipeline is ran on the test images and below images are the outputs.
   </tr>
  </table>
  
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
+ <table>
+  <tr>
+    <td>solidYellowCurve2</td>
+     <td>solidYellowLeft</td>
+     <td>whiteCarLaneSwitch</td>
+  </tr>
+  <tr>
+    <td><img src="./test_images_output/Red/solidYellowCurve2_test_output.jpg" width=250 ></td>
+    <td><img src="./test_images_output/Red/solidYellowLeft_test_output.jpg" width=250 ></td>
+    <td><img src="./test_images_output/Red/whiteCarLaneSwitch_test_output.jpg" width=250 ></td>
+  </tr>
+ </table>
 
 
 ### 2. Identify potential shortcomings with your current pipeline
