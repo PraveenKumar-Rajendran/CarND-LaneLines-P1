@@ -35,7 +35,7 @@ My pipeline consisted of 5 steps. Steps will be explained below.
 
 This pipeline is ran on the test images and below images are the outputs. 
 
-![alt-text-1](./test_images_output/Red/solidWhiteCurve_test_output.jpg "solidWhiteCurve") ![alt-text-2](./test_images_output/Red/solidWhiteRight_test_output.jpg "solidWhiteRight") ![alt-text-3](./test_images_output/Red/solidYellowCurve_test_output.jpg "solidYellowCurve")
+![alt-text-1](./test_images_output/Red/solidWhiteCurve_test_output.jpg "solidWhiteCurve") ![alt-text-2](./test_images_output/Red/solidWhiteRight_test_output.jpg "solidWhiteRight")
 
 
 
