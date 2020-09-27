@@ -13,7 +13,7 @@ It helps to get out feet wet on the field of computer vision and also setting up
 
 ### Lane detection pipeline.
 
-My pipeline consisted of 5 steps. Steps will be explained below. 
+My pipeline consists of 5 steps. Steps will be explained below. 
 
 * Color image is converted to grayscale image.
 * Gaussian smoothing witht the kernel size of 3, before running canny (way of suppressing noise and spurious gradients by averaging).
@@ -53,16 +53,16 @@ This pipeline is ran on the test images and below images are the outputs.
  </table>
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2.Potential shortcomings with current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the region of lane shifted significantly which could ultimately lead to the failure of the pipeline.
 
-Another shortcoming could be ...
+Another shortcoming could be hardcoding of too many parameters according to the given conditions in the image or the video stream, which cannot adapt videos taken in different conditions.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to considering the curvy roads and making the pipeline robust so that it performs fairly in straight as well as curvy roads.
 
-Another potential improvement could be to ...
+Another potential improvement could be to adjusting region of interest according to the current position the vehicle is in by making use of HD Maps and Sensor fusion algorithms.
