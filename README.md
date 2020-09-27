@@ -53,6 +53,10 @@ This pipeline is ran on the test images and below images are the outputs.
  </table>
 
 
+Actually I spent more time on identifying the full extent of the lane where I needed to average and/or extrapolate the line segments to produce the same. 
+collected the x-y coordinates of the mini lines into an array based on their slope. Then fit a straight line to these points. At this point the result was not stable at all frames for which I had to search for a better stabilized result. Later it was accomplished using the Robust linear model estimation using [RANSAC](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ransac.html#sphx-glr-auto-examples-linear-model-plot-ransac-py) from [scikit-learn](scikit-learn.org)
+
+
 ### 2.Potential shortcomings with current pipeline
 
 
@@ -63,6 +67,6 @@ Another shortcoming could be hardcoding of too many parameters according to the 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to considering the curvy roads and making the pipeline robust so that it performs fairly in straight as well as curvy roads.
+A possible improvement would be considering the curvy roads and making the pipeline robust so that it performs fairly in straight as well as curvy roads.
 
-Another potential improvement could be to adjusting region of interest according to the current position the vehicle is in by making use of HD Maps and Sensor fusion algorithms.
+Another potential improvement could be adjusting region of interest according to the current position the vehicle is in by making use of HD Maps and Sensor fusion algorithms.
